@@ -1,4 +1,5 @@
 abstract class Furniture {
+	public abstract void broken();
 	private String name, material, color;
 
 	public Furniture(String name, String material, String color) {

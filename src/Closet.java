@@ -33,5 +33,9 @@ public class Closet extends Furniture {
 	}
 
 
-	
+	@Override
+	public void broken() {
+		System.out.println("Closet is broken");
+		
+	}
 }

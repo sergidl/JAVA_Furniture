@@ -48,4 +48,10 @@ public class Table extends Furniture{
 		this.extendable = extendable;
 	}
 
+	@Override
+	public void broken() {
+		System.out.println("Table is broken");
+		
+	}
+
 }

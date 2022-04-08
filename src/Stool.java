@@ -1,6 +1,6 @@
 public class Stool extends Chair {
 	private boolean foldable;
-	public Stool(String name, String material, String color, int numberOfLegs, boolean foldable) {
+	public Stool(String name, String material, String color, int numberOfLegs, boolean foldable ) {
 		super(name, material, color, numberOfLegs);
 		this.setFoldable(foldable);
 	}
@@ -10,6 +10,11 @@ public class Stool extends Chair {
 	}
 	public void setFoldable(boolean foldable) {
 		this.foldable = foldable;
+	}
+
+	public void broken() {
+		System.out.println("Stool is broken");
+		
 	}
 	
 }

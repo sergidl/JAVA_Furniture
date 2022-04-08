@@ -14,5 +14,9 @@ public class Chair extends Furniture {
 		this.numberOfLegs = numberOfLegs;
 	}
 
-	
+	@Override
+	public void broken() {
+		System.out.println("Chair is broken");
+		
+	}
 }

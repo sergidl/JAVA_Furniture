@@ -24,6 +24,7 @@ public class App {
         System.out.println(closet.getLength());
         System.out.println(closet.getWidth());
         System.out.println(closet.getHeight());
+        closet.broken();
 
         // STOOL
         System.out.println("\n\nTaburet\n");
@@ -43,6 +44,7 @@ public class App {
         System.out.println(stool.getColor());
         System.out.println(stool.getNumberOfLegs());
         System.out.println(stool.getFoldable());
+        stool.broken();
 
         // TABLE
         System.out.println("\n\nTaula:\n");
@@ -71,6 +73,7 @@ public class App {
         System.out.println(table.getHeight());
         System.out.println(table.getNumberOfLegs());
         System.out.println(table.getExtendable());
+        table.broken();
 
         // CHAIR
         System.out.println("\n\nCadira\n");
@@ -87,6 +90,7 @@ public class App {
         System.out.println(chair.getMaterial());
         System.out.println(chair.getColor());
         System.out.println(chair.getNumberOfLegs());
+        chair.broken();
         
         sc.close();
     }
